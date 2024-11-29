@@ -76,26 +76,3 @@ git clone https://github.com/Freddie-hub/Data-Visualization.git
 
 The interactive data visualization application provides various types of visualizations to explore and analyze the dataset. Each visualization corresponds to a specific route in the Flask API and is accompanied by a React component for rendering.
 
-- **Bar Chart Visualization (BarChart)**
-  - Route: /bar
-  - Description: Displays a bar chart that represents intensity values based on the selected filter.
-
-- **Constrained Bar Chart Visualization (ConsBar)**
-  - Route: /constrains_bar
-  - Description: Presents a constrained bar chart showing intensity values based on two selected filters and a constraint.
-
-- **Histogram Visualization (HistChart)**
-  - Route: /groupby_histo
-  - Description: Demonstrates a stacked histogram showing intensity values based on two selected filters.
-
-- **Line Chart Visualization (LineChart)**
-  - Route: /count_line
-  - Description: Illustrates a line chart depicting intensity values over time based on the selected filter.
-
-## Python Files Description
-
-Here's a description of the Python files provided for data preprocessing and backend logic:
-
-- **app.py**: This file contains the Flask application that serves as the backend API for handling requests from the frontend. It defines routes for various data visualizations and interacts with the dataset to fetch and preprocess data for visualization.
-
-- **visualizations.py**: This file includes functions and logic for generating data visualizations based on different filters and constraints. It processes data from the SQLite database and returns JSON data that can be used by the frontend to render the charts.
