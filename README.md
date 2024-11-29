@@ -18,8 +18,8 @@ Follow these steps to set up and run the interactive data visualization applicat
 
 Clone the repository containing the application source code:
 ```bash
-git clone https://github.com/arjunprakash027/interactive-data-visualization-application.git
-cd interactive-data-visualization-application
+git clone https://github.com/Freddie-hub/Data-Visualization.git
+
 ```
 
 ### 2. Setup the Backend (Flask API)
@@ -97,7 +97,5 @@ The interactive data visualization application provides various types of visuali
 Here's a description of the Python files provided for data preprocessing and backend logic:
 
 - **app.py**: This file contains the Flask application that serves as the backend API for handling requests from the frontend. It defines routes for various data visualizations and interacts with the dataset to fetch and preprocess data for visualization.
-
-- **jsondata.db**: This SQLite database file contains the dataset used for the application. It stores the data that will be visualized using the different types of charts and visualizations.
 
 - **visualizations.py**: This file includes functions and logic for generating data visualizations based on different filters and constraints. It processes data from the SQLite database and returns JSON data that can be used by the frontend to render the charts.
