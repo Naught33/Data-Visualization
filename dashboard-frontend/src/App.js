@@ -26,10 +26,6 @@ function App() {
           <LineChart />
         </div>
       </section>
-      {/* <footer className="footer">
-        <p>&copy; developed by ARJUN.</p>
-        <p>Find me on <a href="https://github.com/arjunprakash027">GitHub</a> or contact me via email at arjunprakash027@gmail.com.</p>
-      </footer> */}
     </div>
   );
 }
